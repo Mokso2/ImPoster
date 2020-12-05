@@ -29,16 +29,15 @@
         android:layout_width="111dp"
         android:layout_height="52dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="419dp"
+        android:layout_marginTop="572dp"
         android:layout_marginEnd="299dp"
-        android:layout_marginBottom="108dp"
+        android:layout_marginBottom="15dp"
         android:text="@string/button3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/some_id"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/some_id" />
 
     <Button
         android:id="@+id/btn_Main"
@@ -53,22 +52,19 @@
         app:layout_constraintEnd_toStartOf="@+id/btn_History"
         app:layout_constraintStart_toEndOf="@+id/btn_AddAccount"
         app:layout_constraintTop_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.415" />
+        app:layout_constraintVertical_bias="0.345" />
 
     <Button
         android:id="@+id/btn_History"
         android:layout_width="89dp"
         android:layout_height="52dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="416dp"
         android:layout_marginEnd="24dp"
-        android:layout_marginBottom="108dp"
+        android:layout_marginBottom="16dp"
         android:text="@string/button1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btn_Main"
-        app:layout_constraintTop_toBottomOf="@+id/some_id"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintStart_toEndOf="@+id/btn_Main" />
 
     <EditText
         android:id="@+id/editTextTextMultiLine"
@@ -76,43 +72,64 @@
         android:layout_height="391dp"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="22dp"
-        android:layout_marginBottom="15dp"
+        android:autofillHints=""
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
-        app:layout_constraintBottom_toTopOf="@+id/btn_AddAccount"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="201dp" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/InstPic"
         android:layout_width="56dp"
         android:layout_height="53dp"
         android:layout_marginStart="12dp"
+        android:contentDescription="@string/picture2"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/VkPic"
         app:srcCompat="@drawable/inst" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/VkPic"
         android:layout_width="56dp"
         android:layout_height="53dp"
         android:layout_marginStart="35dp"
         android:layout_marginEnd="12dp"
+        android:contentDescription="@string/picture1"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine"
-        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintEnd_toStartOf="@+id/InstPic"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/vk" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/FacebookPic"
         android:layout_width="56dp"
         android:layout_height="53dp"
-        android:layout_marginStart="18dp"
+        android:layout_marginStart="12dp"
+        android:contentDescription="@string/picture3"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/InstPic"
         app:srcCompat="@drawable/facebook" />
+
+    <Button
+        android:id="@+id/btn_MainSend"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="186dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="17dp"
+        android:background="#5498ff"
+        android:text="@string/Send"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toTopOf="@+id/btn_AddAccount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

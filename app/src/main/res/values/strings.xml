@@ -5,7 +5,6 @@
 \u00D0\u0093\u00D0\u00BB\u00D0\u00B0\u00D0\u00B2\u00D0\u00BD\u00D0\u00B0\u00D1\u008F
 </string>
     <string name="Main">Главная</string>
-    <string name="Send">Отправить</string>
     <string name="title_activity_history">HistoryActivity</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -21,4 +20,8 @@
     <string name="button3">Добавить аккаунт</string>
     <string name="jopa">Жопа</string>
     <string name="denisgay">DenisGay</string>
+    <string name="Send">Отправить</string>
+    <string name="picture1">TODO</string>
+    <string name="picture2">TODO</string>
+    <string name="picture3">TODO</string>
 </resources>
