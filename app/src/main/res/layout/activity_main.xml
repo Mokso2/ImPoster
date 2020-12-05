@@ -16,7 +16,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="36dp"
-        android:layout_marginBottom="658dp"
+        android:layout_marginBottom="500dp"
         android:gravity="center_horizontal|center_vertical"
         android:text="@string/Main"
         android:textAppearance="@style/some_id"
@@ -24,32 +24,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <Button
-        android:id="@+id/btn_MainSend"
-        android:layout_width="186dp"
-        android:layout_height="39dp"
-        android:layout_marginStart="112dp"
-        android:layout_marginTop="408dp"
-        android:layout_marginEnd="113dp"
-        android:layout_marginBottom="210dp"
-        android:background="#5498ff"
-        android:text="@string/Send"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/some_id" />
 
     <Button
         android:id="@+id/btn_AddAccount"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="552dp"
-        android:layout_marginEnd="65dp"
-        android:layout_marginBottom="57dp"
-        android:text="@string/button1"
+        android:layout_width="111dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="419dp"
+        android:layout_marginEnd="299dp"
+        android:layout_marginBottom="108dp"
+        android:text="@string/button3"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_Main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/some_id" />
 
@@ -57,30 +44,30 @@
         android:id="@+id/btn_Main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="106dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="383dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="140dp"
         android:text="@string/button2"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btn_History"
-        app:layout_constraintStart_toEndOf="@+id/btn_AddAccount"
-        app:layout_constraintTop_toBottomOf="@+id/btn_MainSend" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.413" />
 
     <Button
         android:id="@+id/btn_History"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="552dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="57dp"
-        android:text="@string/button3"
+        android:layout_width="106dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="416dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="108dp"
+        android:text="@string/button1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn_Main"
-        app:layout_constraintTop_toBottomOf="@+id/some_id"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/some_id" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

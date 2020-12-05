@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        addListenerOnButton();
     }
     public void addListenerOnButton (){
         btn_AddAccount=(Button)findViewById(R.id.btn_AddAccount);
@@ -25,10 +26,17 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        System.out.println("соси ногу");
-                        Intent intentHistory = new Intent();
-                        intentHistory.setClass(MainActivity.this, HistoryActivity.class);
+                        Intent intentHistory = new Intent(getApplicationContext(),HistoryActivity.class);
                         startActivity(intentHistory);
+                    }
+                }
+        );
+        btn_AddAccount.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intentAddAccount=new Intent(getApplicationContext(),AddAccountActivity.class);
+                        startActivity(intentAddAccount);
                     }
                 }
         );
