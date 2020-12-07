@@ -24,4 +24,8 @@
     <string name="picture1">TODO</string>
     <string name="picture2">TODO</string>
     <string name="picture3">TODO</string>
+    <string name="some"></string>
+    <string name="email">Email</string>
+    <string name="passtext">Пароль</string>
+    <string name="soctcettext">Соц.сеть</string>
 </resources>

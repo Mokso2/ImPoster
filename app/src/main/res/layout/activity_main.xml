@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/some_id"
+        android:id="@+id/some"
         android:layout_width="416dp"
         android:layout_height="83dp"
         android:layout_alignParentStart="true"
@@ -102,7 +102,7 @@
         android:layout_marginTop="88dp"
         android:contentDescription="@string/picture3"
         app:layout_constraintStart_toEndOf="@+id/InstPic"
-        app:layout_constraintTop_toTopOf="@+id/some_id"
+        app:layout_constraintTop_toTopOf="@+id/some"
         app:srcCompat="@drawable/facebook" />
 
     <Button
