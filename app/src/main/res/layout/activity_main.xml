@@ -20,42 +20,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btn_AddAccount"
-        android:layout_width="107dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/button3"
-        android:background="@drawable/fileds"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btn_Main"
-        android:layout_width="89dp"
-        android:layout_height="52dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/fileds"
-        android:text="@string/button2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_History"
-        app:layout_constraintHorizontal_bias="0.142"
-        app:layout_constraintStart_toEndOf="@+id/btn_AddAccount" />
-
-    <Button
-        android:id="@+id/btn_History"
-        android:layout_width="99dp"
-        android:layout_height="48dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/fileds"
-        android:text="@string/button1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
     <EditText
         android:id="@+id/editTextTextMultiLine"
         android:layout_width="365dp"
