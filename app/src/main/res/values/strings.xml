@@ -28,4 +28,11 @@
     <string name="email">Email</string>
     <string name="passtext">Пароль</string>
     <string name="soctcettext">Соц.сеть</string>
+    <string name="HistoryText">История действий</string>
+    <string name="Seti">Сеть</string>
+    <string name="ActionText">Действие</string>
+    <string name="TimeText">Время</string>
+    <string name="crm_pr_busi">Добро пожаловать в инструмент системы управления отношений с клиентами (CRM)
+“PR Business EcoSystems”  ImPoster Tool</string>
+    <string name="PasswText">Пароль</string>
 </resources>
