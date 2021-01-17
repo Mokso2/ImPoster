@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/some"
+        android:layout_width="416dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/txt_Main"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="365dp"
+        android:layout_height="391dp"
+        android:layout_marginStart="24dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/txt_Main"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/InstPic"
+        android:layout_width="56dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="88dp"
+        android:contentDescription="@string/image_Any"
+        app:layout_constraintStart_toEndOf="@+id/VkPic"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/inst" />
+
+    <ImageView
+        android:id="@+id/VkPic"
+        android:layout_width="56dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="88dp"
+        android:contentDescription="@string/image_Any"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vk" />
+
+    <ImageView
+        android:id="@+id/FacebookPic"
+        android:layout_width="56dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="88dp"
+        android:contentDescription="@string/image_Any"
+        app:layout_constraintStart_toEndOf="@+id/InstPic"
+        app:layout_constraintTop_toTopOf="@+id/some"
+        app:srcCompat="@drawable/facebook" />
+
+    <Button
+        android:id="@+id/btn_MainSend"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="284dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="544dp"
+        android:background="#5498ff"
+        android:text="@string/btn_Send"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

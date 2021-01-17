@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/firstContactMobile">
+    <activity
+        android:id="@+id/firstContactMobile"
+        android:name="com.example.imposter.FirstContactMobile"
+        android:label="activity_first_contact_mobile"
+        tools:layout="@layout/activity_first_contact_mobile" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.imposter.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/addAccountActivity"
+        android:name="com.example.imposter.AddAccountActivity"
+        android:label="activity_add_account"
+        tools:layout="@layout/activity_add_account" />
+    <activity
+        android:id="@+id/historyActivity"
+        android:name="com.example.imposter.HistoryActivity"
+        android:label="activity_history"
+        tools:layout="@layout/activity_history" />
+</navigation>

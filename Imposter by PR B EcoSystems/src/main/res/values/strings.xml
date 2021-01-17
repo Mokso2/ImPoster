@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Poster</string>
+    <!-- Images -->
+    <string name="image_Any">TODO</string>
+    <!-- Buttons -->
+    <string name="btn_History">История действий</string>
+    <string name="btn_Main">Главная</string>
+    <string name="btn_addAccount">Добавить аккаунт</string>
+    <string name="btn_Send">Отправить</string>
+    <!-- Texts -->
+    <string name="txt_Main">Главная</string>
+    <string name="txt_Email">Email</string>
+    <string name="txt_Pass">Пароль</string>
+    <string name="txt_Social">Соц. сеть</string>
+    <string name="txt_History">История действий</string>
+    <string name="txt_Net">Сеть</string>
+    <string name="txt_Act">Действие</string>
+    <string name="txt_Time">Время</string>
+    <string name="txt_descrApp">Добро пожаловать в инструмент системы управления отношений с клиентами (CRM) "PR Business EcoSystems" - Poster</string>
+    <string name="some">! ничего нет !</string>
+    <string name="txt_Join">Войти</string>
+
+</resources>
