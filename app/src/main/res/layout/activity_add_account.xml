@@ -15,7 +15,7 @@
         android:layout_marginBottom="555dp"
         android:gravity="center_horizontal|bottom"
         android:text="Добавить аккаунт"
-        android:textAppearance="@style/some_id"
+        android:textAppearance="@style/some"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -71,7 +71,6 @@
         android:layout_marginTop="237dp"
         android:gravity="center_horizontal|center_vertical"
         android:text="@string/passtext"
-        android:textAppearance="@style/some_id"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -99,7 +98,7 @@
         android:layout_marginTop="320dp"
         android:gravity="center_horizontal|center_vertical"
         android:text="@string/soctcettext"
-        android:textAppearance="@style/some_id"
+        android:textAppearance="@style/some"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

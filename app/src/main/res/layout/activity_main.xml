@@ -15,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:gravity="center_horizontal|center_vertical"
         android:text="@string/Main"
-        android:textAppearance="@style/some_id"
+        android:textAppearance="@style/some"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
