@@ -1,38 +1,23 @@
 <resources>
-    <string name="app_name">ImPosterFX</string>
-    <string name="some_id">
+    <string name="app_name">Poster</string>
+    <!-- Images -->
+    <string name="image_Any">TODO</string>
+    <!-- Buttons -->
 
-\u00D0\u0093\u00D0\u00BB\u00D0\u00B0\u00D0\u00B2\u00D0\u00BD\u00D0\u00B0\u00D1\u008F
-</string>
-    <string name="Main">Главная</string>
-    <string name="title_activity_history">HistoryActivity</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <!-- Texts -->
+    <string name="txt_Main">Главная</string>
+    <string name="txt_Email">Email</string>
+    <string name="txt_Send">Отправить</string>
+    <string name="txt_AddAccount">Добавить Аккаунт</string>
+    <string name="txt_Pass">Пароль</string>
+    <string name="txt_Social">Соц. сеть</string>
+    <string name="txt_History">История действий</string>
+    <string name="txt_Net">Соц.Сеть</string>
+    <string name="txt_Act">Действие</string>
+    <string name="txt_Time">Время</string>
+    <string name="txt_descrApp">Добро пожаловать в инструмент системы управления отношений с клиентами (CRM) "PR Business EcoSystems" - Poster</string>
+    <string name="some">! ничего нет !</string>
+    <string name="txt_Join">Войти</string>
+    <string name="txt_Add">Добавить</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="title_activity_add_account">AddAccountActivity</string>
-    <string name="button1">История действий</string>
-    <string name="button2">Главная</string>
-    <string name="button3">Добавить аккаунт</string>
-    <string name="jopa">Жопа</string>
-    <string name="denisgay">DenisGay</string>
-    <string name="Send">Отправить</string>
-    <string name="picture1">TODO</string>
-    <string name="picture2">TODO</string>
-    <string name="picture3">TODO</string>
-    <string name="some"></string>
-    <string name="email">Email</string>
-    <string name="passtext">Пароль</string>
-    <string name="soctcettext">Соц.сеть</string>
-    <string name="HistoryText">История действий</string>
-    <string name="Seti">Сеть</string>
-    <string name="ActionText">Действие</string>
-    <string name="TimeText">Время</string>
-    <string name="crm_pr_busi">Добро пожаловать в инструмент системы управления отношений с клиентами (CRM)
-“PR Business EcoSystems”  ImPoster Tool</string>
-    <string name="PasswText">Пароль</string>
 </resources>

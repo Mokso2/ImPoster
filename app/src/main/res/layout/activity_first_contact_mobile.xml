@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FirstContactMobile">
+    tools:context="com.example.imposter.FirstContactMobile">
 
     <EditText
         android:id="@+id/soctcettext"
@@ -29,7 +29,7 @@
         android:layout_marginStart="88dp"
         android:layout_marginTop="31dp"
         android:gravity="center_horizontal|center_vertical"
-        android:text="@string/crm_pr_busi"
+        android:text="@string/txt_descrApp"
         android:textAppearance="@style/crm_pr_busi"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -43,7 +43,7 @@
         android:layout_marginStart="48dp"
         android:layout_marginTop="318dp"
         android:gravity="center_horizontal|center_vertical"
-        android:text="@string/PasswText"
+        android:text="@string/txt_Pass"
         android:textAppearance="@style/email"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -69,20 +69,18 @@
         android:layout_marginStart="48dp"
         android:layout_marginTop="235dp"
         android:gravity="center_horizontal|center_vertical"
-        android:text="@string/email"
+        android:text="@string/txt_Email"
         android:textAppearance="@style/email"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_mainsen"
-        android:layout_width="186dp"
-        android:layout_height="39dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="452dp"
-        android:background="@drawable/btn_mainsen"
+        android:id="@+id/btn_toMain"
+        android:layout_width="133dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="436dp"
+        android:text="Button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
