@@ -6,13 +6,13 @@
     app:startDestination="@id/mainActivity"
     tools:ignore="UnusedNavigation">
     <activity
-        android:id="@+id/firstContactMobile"
-        android:name="com.example.imposter.FirstContactMobile"
-        android:label="activity_first_contact_mobile"
-        tools:layout="@layout/activity_first_contact_mobile" />
+        android:id="@+id/registration"
+        android:name="com.example.imposter.Registration"
+        android:label="activity_registration"
+        tools:layout="@layout/activity_registration" />
     <activity
         android:id="@+id/mainActivity"
-        android:name="com.example.imposter.FirstContactMobile"
+        android:name="com.example.imposter.MainActivity"
         android:label="activity_main"
         tools:layout="@layout/activity_main" />
     <activity
@@ -25,4 +25,11 @@
         android:name="com.example.imposter.HistoryActivity"
         android:label="activity_history"
         tools:layout="@layout/activity_history" />
+    <activity
+        android:id="@+id/register"
+        android:name="com.example.imposter.Register"
+        android:label="activity_register"
+        tools:layout="@layout/activity_register" />
+
+
 </navigation>

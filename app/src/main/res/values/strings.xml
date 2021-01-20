@@ -3,9 +3,14 @@
     <!-- Images -->
     <string name="image_Any">TODO</string>
     <!-- Buttons -->
-
+  <string name="btn_toMain">Войти</string>
+  <string name="btn_Registration">Зарегистрироваться</string>
     <!-- Texts -->
+    <string name="txt_WrongPassword">Забыл пароль</string>
+    <string name="txt_RepeatPassword">Повторить пароль</string>
     <string name="txt_Main">Главная</string>
+    <string name="txt_Registration">Нет аккаунта?Регистрация</string>
+    <string name="txt_Entrance">Есть аккаунт?Вход</string>
     <string name="txt_Email">Email</string>
     <string name="txt_Send">Отправить</string>
     <string name="txt_AddAccount">Добавить Аккаунт</string>
