@@ -1,12 +1,12 @@
-package com.example.imposterfxmain;
+package com.example.imposter;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MotionEvent;
-import android.view.View;
-import android.widget.Button;
+
+import com.example.imposterfxmain.R;
 
 public class MainActivity extends AppCompatActivity {
     float x1, x2, y1, y2;

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HistoryActivity">
+    tools:context="com.example.imposter.HistoryActivity">
 
     <TextView
         android:id="@+id/TextHistory"
@@ -15,7 +15,7 @@
         android:layout_marginStart="1dp"
         android:layout_marginEnd="1dp"
         android:gravity="center_horizontal|bottom"
-        android:text="@string/HistoryText"
+        android:text="@string/txt_History"
         android:textAppearance="@style/HistoryText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,7 +30,7 @@
         android:layout_marginStart="208dp"
         android:layout_marginTop="81dp"
         android:gravity="center_horizontal|center_vertical"
-        android:text="@string/TimeText"
+        android:text="@string/txt_Time"
         android:textAppearance="@style/Seti"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -44,7 +44,7 @@
         android:layout_marginStart="121dp"
         android:layout_marginTop="81dp"
         android:gravity="center_horizontal|center_vertical"
-        android:text="@string/ActionText"
+        android:text="@string/txt_Act"
         android:textAppearance="@style/Seti"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -58,7 +58,7 @@
         android:layout_marginStart="46dp"
         android:layout_marginTop="81dp"
         android:gravity="center_horizontal|center_vertical"
-        android:text="@string/Seti"
+        android:text="@string/txt_Net"
         android:textAppearance="@style/Seti"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

@@ -1,4 +1,4 @@
-package com.example.imposterfxmain;
+package com.example.imposter;
 
 import android.content.Context;
 

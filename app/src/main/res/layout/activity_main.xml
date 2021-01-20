@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.example.imposter.MainActivity">
 
     <TextView
         android:id="@+id/some"
@@ -14,8 +14,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:gravity="center_horizontal|center_vertical"
-        android:text="@string/Main"
-        android:textAppearance="@style/some_id"
+        android:text="@string/txt_Main"
+        android:textAppearance="@style/some"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -42,7 +42,7 @@
         android:layout_height="53dp"
         android:layout_marginStart="9dp"
         android:layout_marginTop="88dp"
-        android:contentDescription="@string/picture2"
+        android:contentDescription="@string/image_Any"
         app:layout_constraintStart_toEndOf="@+id/VkPic"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/inst" />
@@ -53,7 +53,7 @@
         android:layout_height="53dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="88dp"
-        android:contentDescription="@string/picture1"
+        android:contentDescription="@string/image_Any"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/vk" />
@@ -64,7 +64,7 @@
         android:layout_height="53dp"
         android:layout_marginStart="9dp"
         android:layout_marginTop="88dp"
-        android:contentDescription="@string/picture3"
+        android:contentDescription="@string/image_Any"
         app:layout_constraintStart_toEndOf="@+id/InstPic"
         app:layout_constraintTop_toTopOf="@+id/some"
         app:srcCompat="@drawable/facebook" />
@@ -77,7 +77,7 @@
         android:layout_marginStart="60dp"
         android:layout_marginTop="544dp"
         android:background="#5498ff"
-        android:text="@string/Send"
+        android:text="@string/txt_Send"
         android:textColor="#fff"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

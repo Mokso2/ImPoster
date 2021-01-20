@@ -9,16 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FirstContactMobile">
+        <activity android:name="com.example.imposter.Registration"></activity>
+        <activity android:name="com.example.imposter.Register">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AddAccountActivity" />
-        <activity android:name=".HistoryActivity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.example.imposter.MainActivity" />
+        <activity android:name="com.example.imposter.AddAccountActivity" />
+        <activity android:name="com.example.imposter.HistoryActivity" />
     </application>
 
 </manifest>
